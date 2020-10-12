@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="31" total="32" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="713514" started-at="2020-10-06T10:43:47Z" finished-at="2020-10-06T10:55:40Z">
+    <groups>
+      <group name="Ratikanta_Online_UTILP_1">
+        <method signature="QCStore.QC_Online_UTILP_DC_CashAtStore_Txn_Testdata()[pri:4, instance:tests.QCStore@5f9d02cb]" name="QC_Online_UTILP_DC_CashAtStore_Txn_Testdata" class="tests.QCStore"/>
+      </group> <!-- Ratikanta_Online_UTILP_1 -->
+    </groups>
+    <test name="Test" duration-ms="713514" started-at="2020-10-06T10:43:47Z" finished-at="2020-10-06T10:55:40Z">
+      <class name="tests.QCStore">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.QCStore@5f9d02cb]" name="setup" is-config="true" duration-ms="10026" started-at="2020-10-06T10:43:47Z" finished-at="2020-10-06T10:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="killProcess()[pri:0, instance:tests.QCStore@5f9d02cb]" name="killProcess" is-config="true" duration-ms="5010" started-at="2020-10-06T10:43:57Z" finished-at="2020-10-06T10:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killProcess -->
+        <test-method status="PASS" signature="QC_Online_UTILP_DC_CashAtStore_Txn_Testdata()[pri:4, instance:tests.QCStore@5f9d02cb]" name="QC_Online_UTILP_DC_CashAtStore_Txn_Testdata" duration-ms="697748" started-at="2020-10-06T10:44:02Z" finished-at="2020-10-06T10:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QC_Online_UTILP_DC_CashAtStore_Txn_Testdata -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.QCStore@5f9d02cb]" name="getResult" is-config="true" duration-ms="715" started-at="2020-10-06T10:55:40Z" finished-at="2020-10-06T10:55:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=QC_Online_UTILP_DC_CashAtStore_Txn_Testdata status=SUCCESS method=QCStore.QC_Online_UTILP_DC_CashAtStore_Txn_Testdata()[pri:4, instance:tests.QCStore@5f9d02cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:tests.QCStore@5f9d02cb]" name="endReport" is-config="true" duration-ms="0" started-at="2020-10-06T10:55:40Z" finished-at="2020-10-06T10:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- tests.QCStore -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
